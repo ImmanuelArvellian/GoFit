@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_instruktur">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.GoFit.homeInstruktur.homeInstrukturFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home_instruktur" />
+    <fragment
+        android:id="@+id/navigation_izin_instruktur"
+        android:name="com.example.GoFit.homeInstruktur.izinInstruktur.izinInstrukturFragment"
+        android:label="Izin Instruktur"
+        tools:layout="@layout/fragment_izin_instruktur" />
+    <fragment
+        android:id="@+id/navigation_presensi_member"
+        android:name="com.example.GoFit.homeInstruktur.presensiMemberKelas.presensiMemberFragment"
+        android:label="Presensi Member Kelas"
+        tools:layout="@layout/fragment_presensi_member" />
+    <fragment
+        android:id="@+id/navigation_profile_instruktur"
+        android:name="com.example.GoFit.homeInstruktur.profileInstruktur.ProfileInstrukturFragment"
+        android:label="Profile Instruktur"
+        tools:layout="@layout/fragment_profile_instruktur" />
+
+</navigation>
